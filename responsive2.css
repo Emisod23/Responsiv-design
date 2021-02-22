@@ -53,3 +53,22 @@ h2 {
     max-width: 500px;
   }
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  section {
+    column-count: 2;
+  }
+  body {
+    font-size: 1.6rem;
+    line-height: 1.7; 
+  }
+  img {
+    float: right;
+    margin: 1rem;
+    margin-bottom: 8rem;
+    width: 50%;
+  }
+}
