@@ -74,7 +74,16 @@ h2 {
 }
 
 @media (min-width: 2560px) {
-  .container{
+  .container {
     max-width: 2000px;
+  }
+  body {
+    font-size: 5rem;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 7rem;
   }
 }
