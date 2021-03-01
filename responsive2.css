@@ -72,3 +72,9 @@ h2 {
     width: 50%;
   }
 }
+
+@media (min-width: 2560px) {
+  .container{
+    max-width: 2000px;
+  }
+}
